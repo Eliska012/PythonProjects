@@ -34,8 +34,8 @@ c = a + b
 d = a - b
 e = a * b
 f = a / b #b!=0
-g = a ** 2
-h = a ** (1/2)
+g = a ** 2 #mocnina
+h = a ** (1/2) #odmocnina
 i = b  % a #zbytek po celociselnym deleni
 y =  5 + 5 * 2
 
@@ -48,3 +48,7 @@ print(i)
 
 logicka = True
 l2 = False
+llll = logicka and l2 or logicka
+ll =  logicka * l2 + logicka
+print(type(logicka))
+print(not logicka)
