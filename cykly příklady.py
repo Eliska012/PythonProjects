@@ -12,8 +12,8 @@ for k in range(2,6):
 for k in range(5,11,2):
     print(k)
 for k in range(5,11):
-    if i%2==0:
-        print(i)
+    if k%2==0:
+        print(k)
 
 # napiste program ktery secte cisla od 5 do 11
 for l in range(5,12):
@@ -23,3 +23,5 @@ soucet = 0
 for i in range(5,12):
     soucet = soucet + i # soucet = soucet + 1
 print(soucet)
+
+#
