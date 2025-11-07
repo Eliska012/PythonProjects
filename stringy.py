@@ -23,7 +23,7 @@ print(promenna[6])   #indexování od 0 !!!
 print(len(promenna))
 for i in range(len(promenna)):
     print(promenna[i])
-    print(promenna[len(promenna)-1])
+    print(promenna[len(promenna)-1]) #poslední prvek
 
 print(promenna[5:10]) #vybírání textu z promené od 5 do 10 znaku 10 znak není včetně
 print(promenna[5:10:2])#poslední 3. číslo je po kolika to jde
@@ -33,5 +33,6 @@ print(promenna[5:])#od pátého prvku až do konce
 print(promenna[:5])# od začátku do pátého prvku který není zobrazen
 print(promenna[:5:-1]) # automaticky dosadí největší možné číslo
 print(promenna[::-1])# jde po zpátku
-print(promenna.index(","))
+print(promenna.index(",")) # vyhledá znak
+
 
