@@ -8,8 +8,21 @@ def kvadraticka(a,b,c):
     elif dis == 0:
         x = (-b)
         return[x]
-    else:
-        print ("Nemá řešení v množině reálných čísel")
+    #else:
+        #print ("Nemá řešení v množině reálných čísel")
 
 dis = kvadraticka(1,2,1)
-print (dis)
+#print (dis)
+#print (kvadraticka(1,2,1))
+#print (kvadraticka(1,3,1))
+
+
+def kvadratic_test():
+    results =[]
+    for i in range(5):
+        results.append(kvadraticka(1,i,1))
+    return results
+
+vysledky = kvadratic_test()
+for vysledek in vysledky:
+    print(vysledek)
